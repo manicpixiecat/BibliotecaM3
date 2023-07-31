@@ -20,8 +20,13 @@ INSERT INTO livros (id_livro, titulo, autor, ano_lancamento)
 VALUES (4, 'O Caminho para a Magia', 'Benjamin Brooks', '1993-11-06');
 INSERT INTO livros (id_livro, titulo, autor, ano_lancamento)
 VALUES (5, 'The Forgotten Realm', 'Mia Roberts', '2023-08-12');
-
-
+use biblioteca;
+INSERT INTO emprestimo VALUES
+(1, 4, 3, '2022-07-31', '2022-08-14'),
+(2, 1, 4, '2023-07-10', '2022-07-24'),
+(3, 2, 2, '2023-01-01', '2023-02-21'),
+(4, 3, 1, '2023-01-01', '2023-01-15'),
+(5, 5, 5, '2020-01-01', '2023-02-15');
 
 
 
