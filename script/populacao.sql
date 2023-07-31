@@ -41,7 +41,12 @@ VALUES (1, 3, 104),
        (3, 1, 249),
        (4, 2, 77),
        (5, 4, 1004);
-
+INSERT INTO categoria (id_categoria, genero)
+VALUES (1, 'Fantasia'),
+       (2, 'Romance'),
+       (3, 'Biografia'),
+       (4, 'Auto-Ajuda'),
+       (5, 'Suspense');
              
 
        
