@@ -27,6 +27,33 @@ INSERT INTO emprestimo VALUES
 (3, 2, 2, '2023-01-01', '2023-02-21'),
 (4, 3, 1, '2023-01-01', '2023-01-15'),
 (5, 5, 5, '2020-01-01', '2023-02-15');
+use biblioteca;
+INSERT INTO usuario (id_user, nome, email, datanascimento)
+VALUES 
+(15, 'Ariana Cristina Da Silva', 'ahrigg@gmeu.com', '2002-10-01'),
+       (14, 'Steve Aoi', 'ster123@gmeu.com', '1995-05-25'),
+       (13, 'Giovani Castro', 'diovanec@gmeu.com', '2003-04-03'),
+       (12, 'Nami da Silva', 'namiswan@gmeu.com', '1995-12-16'),
+       (11, 'Krishna Mattos', 'krisredd@gmeu.com', '1998-03-23');
+ INSERT INTO leitura (id, id_livro_fk, pag_atual)
+VALUES (1, 3, 104),
+       (2, 5, 22),
+       (3, 1, 249),
+       (4, 2, 77),
+       (5, 4, 1004);
+
+             
+
+       
+
+
+
+
+
+
+
+
+
 
 
 
