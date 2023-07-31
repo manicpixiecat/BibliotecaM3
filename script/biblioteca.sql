@@ -27,4 +27,15 @@ id_livro_fk int,
 pag_atual int,
 FOREIGN KEY (id_livro_fk) REFERENCES livros (id_livro)
 );
+use biblioteca;
+CREATE TABLE emprestimo (
+  id int not null primary key,
+  id_livro_fk int,
+  id_user_fk int,
+  dataemprestimo date,
+  datadevolucao date,
+  FOREIGN KEY (id_livro_fk) REFERENCES livros (id_livro),
+  FOREIGN KEY (id_user_fk) REFERENCES usuario (id_user)
+)
+
 
