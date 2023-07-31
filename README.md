@@ -1,6 +1,6 @@
 # BibliotecaM3
 Projeto realizado no modulo 3 do curso Resilia Web FullStack
-**README - Projeto Biblioteca**
+
 
 Este é um projeto de exemplo para uma biblioteca, onde é possível realizar o controle de empréstimos de livros. 
 Para ter acesso ao banco de dados clone o repositorio e execute na sua maquina.
